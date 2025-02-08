@@ -1,4 +1,4 @@
-export const myStructure = (S:any) =>
+export const myStructure = (S:any,context:any) =>
     S.list()
       .title('Content')
       .items([
