@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Single({exhibit, width}:any) {
 
   return (
-    <div className={`h-full w-auto items-end flex border-l broder-[--foreground] bg-white`}>
+    <div className={`h-full w-auto items-end flex border-l border-[--foreground] bg-white`}>
      
       <div className=" h-full w-[45vw] grid grid-cols-6 sticky left-[0] pr-[100px] ">
           {/* <div className="w-[25vw] absolute y-center right-0">

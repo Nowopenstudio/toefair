@@ -19,6 +19,14 @@
 }
 
 @font-face {
+	font-family: 'sans';
+	src: url('/fonts/sans.woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
 	font-family: 'book';
 	src: url('/fonts/book-bold.woff2');
 	font-weight: 700;
@@ -49,7 +57,7 @@ body{
   font-weight: bold;
 }
 h1{
-  font-family: 'Antique Olive Std';
+  font-family: 'sans',Arial, Helvetica, sans-serif;
   font-weight:bold;
   font-size: 42pt;
   line-height: 1em;
@@ -58,7 +66,7 @@ h1{
 }
 
 h2{
-  font-family: 'Antique Olive Std';
+  font-family: 'sans',Arial, Helvetica, sans-serif;
   font-weight:bold;
   font-size: 18pt;
   line-height: 1em;
