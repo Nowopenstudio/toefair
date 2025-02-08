@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useRef} from 'react';
 import { useScroll, useTransform, motion } from "framer-motion";
 
-export default function ParallaxAd({events,scale, cover, speed, width}){
+export default function ParallaxAd({events,scale, cover, speed, width}:any){
   const parallax = useRef(null);
 
   const { scrollYProgress } = useScroll()
