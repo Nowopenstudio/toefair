@@ -28,7 +28,7 @@ export default function Landing({home, featProj, exhibits}:any) {
 
 
      useEffect(() => {
-    if()
+  
       setPage(elRef.current!.offsetWidth);
      window.scrollTo(0,0)
 
