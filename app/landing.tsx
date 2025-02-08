@@ -15,7 +15,7 @@ import useResize from "./lib/hooks/useResize";
 export default function Landing({home, featProj, exhibits}:any) {
     const pageID = usePathname();
     const { winX, winY } = useResize();
-    const elRef = useRef<HTMLElement>(null)
+    const elRef = useRef<HTMLInputElement>(null)
     const [fullPage, setPage] = useState(0);
     const [prog, setProg] = useState(0);
     const [scrollX, setScroll] = useState(0);
