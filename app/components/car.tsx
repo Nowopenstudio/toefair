@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ReactLenis, useLenis } from "@studio-freight/react-lenis";
 import { useState } from "react";
 
-export default function Car({car, index, prog}){
+export default function Car({car, index, prog}:any){
     
     
 
