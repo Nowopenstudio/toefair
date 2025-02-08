@@ -20,4 +20,5 @@ const Landing = forwardRef<HTMLInputElement, { art:any, width:any,scrollX:any}>(
   );
 })
 
+Landing.displayName = 'Landing';
 export default Landing;

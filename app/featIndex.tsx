@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { getData } from "./lib/util/sanity";
 import Link from "next/link";
 import { Reveal } from "./lib/util/reveal";
 
@@ -21,7 +20,7 @@ export default function FeatIndex({work, width}:any) {
           </Link>
           {work.map((item:any,i:number)=>{
             return(
-              <Link scroll={true} href={`/artwork/${item.slug.current}`} className="w-[33vw] h-[auto] px-[20px] pb-[10vh]" key={`item+${i}`} scroll={false}>
+              <Link scroll={true} href={`/artwork/${item.slug.current}`} className="w-[33vw] h-[auto] px-[20px] pb-[10vh]" key={`item+${i}`} >
                 <div className="singleArt">
                   <Image alt="image" height={0}  width={0} sizes="100vw"  src={item.cover}  className="w-[100%] origin-bottom ctaArt" style={{scale:item.scale}}/>
                 </div>

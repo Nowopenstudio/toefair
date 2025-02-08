@@ -22,5 +22,5 @@ const Landing = forwardRef<HTMLInputElement, { home: object, width:number, featP
     </div>
   );
 })
-
+Landing.displayName = 'Landing';
 export default Landing;
